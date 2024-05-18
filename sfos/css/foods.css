@@ -1,0 +1,16 @@
+.food-img-holder {
+    width: 100%;
+    height: 15em;
+}
+
+.food-img-holder>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    transition: all .2s ease-in-out;
+}
+
+.food-item:hover .food-img-holder>img {
+    transform: scale(1.2);
+}
